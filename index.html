@@ -4,21 +4,185 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/098c2dda99.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Admin Dashboard</title>
 </head>
 <body>
   <div class="container">
     <aside class="sidebar">
-      <div >
-  
+      <div class="sidebar-header">
+        <i class="fa-brands fa-windows"></i>
+        <span class="heading">Dashboard</span>
       </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#"><i class="fa-solid fa-user"></i>Profile</a></li>
+          <li><a href="#"><i class="fa-solid fa-message"></i>Messages</a></li>
+          <li><a href="#"><i class="fa-solid fa-history"></i>History</a></li>
+          <li><a href="#"><i class="fa-solid fa-book"></i>Tasks</a></li>
+          <li><a href="#" class="users"><i class="fa-solid fa-users"></i>Communities</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <li><a href="#"><i class="fa-solid fa-cog"></i>Settings</a></li>
+        <li><a href="#"><i class="fa-solid fa-square-check"></i>Support</a></li>
+        <li><a href="#"><i class="fa-solid fa-shield"></i>Privacy</a></li>
     </aside>
     <header class="header">
+
+      <div class="header-container-1">
+        <div class="search-bar">
+          <button type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input type="text" placeholder="Search..." class="search">
+        </div>
+        <div class="user-info-1">
+          <i class="fa-solid fa-bell"></i>
+          <img src="./images/maleImg.jfif" alt="" class="profile-image">
+          <h4 class="user-name">John Doe</h4>
+        </div>
+      </div>
+
+      <div class="header-container-2">
+        <div class="user-info-2">
+          <img src="./images/maleImg.jfif" alt="" class="profile-image">
+          <div>
+            <h6>Hi there,</h6>
+            <h4>Mustapha Anthonio (@engamo)</h4>
+          </div>
+         
+        </div>
+        <div class="header-buttons">
+          <button><a href="#">New</a></button>
+          <button><a href="#">Upload</a></button>
+          <button><a href="#">Share</a></button>
+        </div>
+      </div>
       
+      
+
+        
     </header>
     <main class="main">
+
+      <div class="projects-container">
+        <h3 class="projects-header">Your Projects</h3>
+        <div class="projects">
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis quidem est dicta vitae possimus.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quaerat vero est ea quisquam reiciendis! Quibusdam debitis quidem est dicta vitae possimus.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi hic aspernatur ipsa debitis asperiores rerum.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eveniet provident animi. Esse, harum vero Quibusdam debitis quidem est dicta vitae possimus.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore ipsam assumenda aliquid id tempora.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Super cool projects</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, deleniti beatae sint nisi optio eos. Quibusdam debitis quidem est dicta vitae possimus.</p>
+            <div class="card-icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-regular fa-share-from-square"></i>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <aside class="main-sidebar">
+        <div class="announcements-container">
+          <h3>Announcements</h3>
+          <div class="announcements">
+            <div class="announcements-card">
+              <h5>Site Maintenance</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, illo.</p>
+              <hr>
+            </div>
+            <div class="announcements-card">
+              <h5>Community Share Day</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, illo.</p>
+              <hr>
+            </div>
+            <div class="announcements-card-2">
+              <h5>Updated Privacy Poicy</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, illo.</p>
+            </div>
+          </div>
+        </div>
   
+      <div class="trending-container">
+        <h3>Trending</h3>
+        <div class="trending">
+          <div class="trending-card">
+            <div>
+              <img src="./images/maleImg.jfif" alt="" class="profile-image">
+            </div>
+            <div>
+              <h5>@tegan</h5>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending-card">
+            <div>
+              <img src="./images/maleImg.jfif" alt="" class="profile-image">
+            </div>
+            <div>
+              <h5>@tegan</h5>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending-card">
+            <div>
+              <img src="./images/maleImg.jfif" alt="" class="profile-image">
+            </div>
+            <div>
+              <h5>@tegan</h5>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </aside>
     </main>
   </div>
  
