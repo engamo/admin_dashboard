@@ -117,6 +117,7 @@ body {
 .search-bar > button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 .search {
   padding: 8px;
@@ -125,6 +126,12 @@ body {
   border: none;
   max-width: 600px;
   background-color: #e9ebee;
+}
+.search::placeholder {
+  font-size: 10px;
+  padding-left: 6px;
+  font-style: italic;
+  color: gray;
 }
 .user-info-1 {
   display: flex;
@@ -167,7 +174,7 @@ body {
 
 .main {
   grid-area: main;
-  background-color: #c7cbd0;
+  background-color: #e9ebee;
   padding: 20px;
   display: flex;
   justify-content: center;
